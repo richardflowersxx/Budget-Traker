@@ -17,7 +17,7 @@ app.use(express.static("public"));
 
 mongoose.connect(
  "mongodb+srv://Ricardo:Porsche1!@cluster0.zpleq.mongodb.net/b-track?retryWrites=true&w=majority",
-  {git
+  {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
